@@ -1,0 +1,129 @@
+@font-face {
+  font-family: coda_regular;
+  src: url(coda_regular.ttf);
+}
+html, body {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body {
+  background: #000 url(bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-size: 1.0em;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+a {
+  color: #11ecf7;
+  text-decoration: none;
+}
+#quote {
+  font-family: coda_regular, sans-serif;
+  font-weight: 400;
+  left: 0px;
+  font-size: 2.3em;
+  color: #fec80c;
+  padding: 15px 200px 20px 50px;
+  line-height: 1.2;
+  width: 55%;
+  z-index: 10;
+}
+#quote-text {
+  width: 800px;
+}
+.gradient {
+  background-image: -webkit-gradient(
+    linear, left top, right top, from(rgba(0, 0, 0, 0.75)),
+    to(rgba(0, 0, 0, 0))
+  );
+  background-image: -moz-linear-gradient(
+    left center,
+    rgba(0, 0, 0, 0.75) 20%, rgba(0, 0, 0, 0) 95%
+  );
+}
+#dark_container {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.70);
+  bottom: 0;
+  color: #fff;
+  height: 500px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+#dark_container, #footer {
+  min-width: 900px;
+}
+#about {
+  left: 420px;
+  position: absolute;
+#about h2 {
+  color: #11ecf7;
+  font-family: coda_regular, sans-serif;
+  font-size: 2.3em;
+  font-weight: 400;
+  margin: 0;
+  padding: 13px 0 5px 0;
+}
+}
+#info {
+  left: 420px;
+  position: absolute;
+  font-weight: 400;
+  color: #11ecf7;
+  font-family: coda_regular, sans-serif;
+  font-size: 2.3em;
+  margin: 0;
+  padding: 13px 0 5px 0;
+}
+#info2 {
+  left: 420px;
+  position: absolute;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+#phone {
+  background: url(phonev2.png) no-repeat;
+  background-size: cover;
+  bottom: 0px;
+  height: 590px;
+  left: 20px;
+  margin: 0;
+  position: absolute;
+  padding: 0;
+  width: 380px;
+  z-index: 5;
+  text-align: center;
+}
+#about_text {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+.blue {
+  color: #11ecf7;
+}
+#getit {
+  background: url(download_googleplay.png) no-repeat;
+  bottom: 38px;
+  height: 44px;
+  left: 340px;
+  position: absolute;
+  width: 128px;
+}
+#appstore {
+  background: url(download_appstore.png) no-repeat;
+  bottom: -10px;
+  height: 38px;
+  left: 340px;
+  position: absolute;
+  width: 128px;
+}
